@@ -1,0 +1,65 @@
+$black: #303030;
+$gray: #999999;
+$yellow: #eeca02;
+$white: #ffffff;
+$back: #141414;
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+}
+/******
+      login page
+   ******/
+.contLogin {
+  border-radius: 16px;
+  border: 1px dashed $yellow;
+  padding: 40px 20px;
+  max-width: 600px !important;
+  margin: auto;
+  background-color: #141414;
+  margin-top: 10%;
+}
+.login {
+  width: 90%;
+  font-weight: 700;
+}
+
+/**********
+  logs
+*******/
+
+.logCard {
+  border: 1px dashed $yellow;
+  border-radius: 12px;
+
+  font-size: 16px;
+  min-width: 250px;
+  align-items: center;
+  text-align: center;
+}
+.navItem {
+  font-size: 18px;
+}
+/***
+  upload
+  ***/
+.upload {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 10%;
+  height: 200px;
+}
+/**
+ table
+ ***/
+.table {
+  margin: auto;
+  padding: 2%;
+  word-break: break-word;
+  height: 500vh;
+  margin-bottom: 100px;
+}
+// .ant-table-body {
+//   height: 100vh;
+// }
